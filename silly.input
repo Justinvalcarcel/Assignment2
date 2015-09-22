@@ -1,0 +1,21 @@
+#Justin Valcarcel
+#Python Sandbox Escape: Assignment 2
+#Application Security
+
+#a = ' ' * 999999999999999
+
+
+#Error generated: Memory Error
+
+#Python(902,0x7fff76d3f300) malloc: *** mach_vm_map(size=1000000000004096) failed (error code=3)
+#*** error: can't allocate region
+#*** set a breakpoint in malloc_error_break to debug
+#Python(902,0x7fff76d3f300) malloc: *** mach_vm_map(size=1000000000004096) failed (error code=3)
+#*** error: can't allocate region
+#*** set a breakpoint in malloc_error_break to debug
+#Traceback (most recent call last):
+#  File "/Users/justinvalcarcel/Desktop/School/Application Security/SandboxEscape/easytocode.py", line 21, in <module>
+#    exec filedata in namespace
+#  File "<string>", line 1, in <module>
+#MemoryError
+

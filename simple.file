@@ -1,0 +1,21 @@
+
+
+print ().__getattribute__("__cla" + "ss__").__bases__[0]
+
+
+
+#a = ' ' * 999999999999999
+
+#Python(977,0x7fff76d3f300) malloc: *** mach_vm_map(size=1000000000004096) failed (error code=3)
+#*** error: can't allocate region
+#*** set a breakpoint in malloc_error_break to debug
+#Python(977,0x7fff76d3f300) malloc: *** mach_vm_map(size=1000000000004096) failed (error code=3)
+#*** error: can't allocate region
+#*** set a breakpoint in malloc_error_break to debug
+#Traceback (most recent call last):
+#  File "/Users/justinvalcarcel/Desktop/School/Application Security/SandboxEscape2/potentiallyhackablesandbox.py", line 19, in <module>
+#    safecall(filedata)
+#  File "/Users/justinvalcarcel/Desktop/School/Application Security/SandboxEscape2/potentiallyhackablesandbox.py", line 17, in safecall
+#    exec programdata in newbuiltins
+#  File "<string>", line 1, in <module>
+#MemoryError
